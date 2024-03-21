@@ -5,5 +5,9 @@
 local map = vim.keymap.set
 
 -- Additional buffer navigation
-map("n", "bj", ":bnext<CR>", { desc = "Go to next Buffer" })
-map("n", "bk", ":bprevious<CR>", { desc = "Go to previous Buffer" })
+map("n", "<leader>bj", ":bnext<CR>", { desc = "Go to next Buffer" })
+map("n", "<leader>bk", ":bprevious<CR>", { desc = "Go to previous Buffer" })
+map("n", "<leader>wj", "<C-W>j", { desc = "Go to the down window" })
+map("n", "<leader>wh", "<C-W>h", { desc = "Go to the left window" })
+map("n", "<leader>wk", "<C-W>k", { desc = "Go to the up window" })
+map("n", "<leader>wl", "<C-W>l", { desc = "Go to the right window" })
