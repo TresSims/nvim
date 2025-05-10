@@ -15,3 +15,5 @@ map("n", "<leader>wl", "<C-W>l", { desc = "Go to the right window" })
 -- Additional tab navigation
 map("n", "<leader><tab>j", ":tabn<CR>", { desc = "Go to next tabpage" })
 map("n", "<leader><tab>k", ":tabp<CR>", { desc = "Go to previous tabpage" })
+
+map("n", "<leader>su", ":UndotreeToggle<CR>", { desc = "Undo Tree" })
