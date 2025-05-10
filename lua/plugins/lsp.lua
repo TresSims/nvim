@@ -5,5 +5,12 @@ return {
     diagnostics = {
       virtual_text = false,
     },
+    capabilities = {
+      workspace = {
+        didChangeWatchedFiles = {
+          dynamicRegistration = true,
+        },
+      },
+    },
   },
 }
