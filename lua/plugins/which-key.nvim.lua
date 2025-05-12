@@ -3,8 +3,4 @@ return {
   opts = {
     preset = "classic",
   },
-  keys = {
-    { "<leader>n", desc = "New" },
-    { "<leader>m", desc = "Marks" },
-  },
 }
