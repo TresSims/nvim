@@ -5,5 +5,6 @@ return {
   },
   keys = {
     { "<leader>n", desc = "New" },
+    { "<leader>m", desc = "Marks" },
   },
 }

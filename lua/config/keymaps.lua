@@ -17,3 +17,7 @@ map("n", "<leader><tab>j", ":tabn<CR>", { desc = "Go to next tabpage" })
 map("n", "<leader><tab>k", ":tabp<CR>", { desc = "Go to previous tabpage" })
 
 map("n", "<leader>su", ":UndotreeToggle<CR>", { desc = "Undo Tree" })
+
+-- Marks
+map("n", "<leader>mD", "<cmd>delm a-zA-Z<cr>", { desc = "Delete all marks" })
+map("n", "<leader>md", ":execute 'delmarks '.nr2char(getchar())<cr>", { desc = "Delete input mark" })
